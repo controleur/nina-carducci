@@ -39,6 +39,72 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Service",
+        "serviceType": "Photographe",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Nina Carducci - Photographe",
+          "image": "https://nina-carducci.github.io/assets/images/nina.png",
+          "telephone": "+33556677889",
+          "priceRange": "$$",
+          "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
+          }
+        ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "68 avenue Alsace-Lorraine",
+            "addressLocality": "Bordeaux",
+            "postalCode": "33200",
+            "addressCountry": "FR"
+          }
+        },
+        "areaServed": {
+          "@type": "State",
+          "name": "Île-de-France"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Services proposés",
+          "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Shooting photo"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Retouches"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Album photos"
+                  }
+                }
+              ]
+        }
+      }
+      </script>
     <script defer src="./assets/maugallery.js"></script>
     <script defer src="./assets/scripts.js"></script>
   </head>
