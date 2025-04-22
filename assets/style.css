@@ -52,7 +52,9 @@ nav a, nav a:hover {
 	padding-block: 100px;
 	position: relative;
 }
-
+.carousel-item img {
+	height: auto;
+}
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
