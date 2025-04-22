@@ -86,7 +86,7 @@ nav a:hover {
   font-size: 30px;
 }
 .about-me__introduction {
-  font-family: "Spectral", sans-serif;
+  font-family: "Spectral", serif;
   font-weight: 800;
   font-style: italic;
   font-size: 1rem;
@@ -145,20 +145,20 @@ nav a:hover {
 }
 
 .quote {
-  font-family: "Spectral", sans-serif;
+  font-family: "Spectral", serif;
   font-style: italic;
   width: 70%;
   margin: auto;
   padding-block: 3em;
 }
 .quote__text {
-  font-family: "Spectral", sans-serif;
+  font-family: "Spectral", serif;
   font-style: italic;
   font-size: calc(1.375rem + 1.5vw);
   font-weight: 300;
 }
 .quote__author {
-  font-family: "Spectral", sans-serif;
+  font-family: "Spectral", serif;
   font-weight: 800;
   font-size: 22px;
 }
